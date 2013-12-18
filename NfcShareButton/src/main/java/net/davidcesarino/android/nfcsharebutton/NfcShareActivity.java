@@ -37,6 +37,7 @@ public class NfcShareActivity extends Activity {
         if (i != null) {
             startActivity(Intent.createChooser(i, getString(R.string.share_with)));
         }
+        finish();
     }
 
     @Override
